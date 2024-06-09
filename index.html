@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <h1>MY CALCULATOR</h1>
+    <div id="container">
+        <div id="cont1">
+        <input type="text" value="0" id="inp">
+    </div>
+    <div id="cont2">
+        <button class="bot" id="n7" onclick="appendValue('7')">7</button>
+        <button class="bot" id="n8" onclick="appendValue('8')">8</button>
+        <button class="bot" id="n9" onclick="appendValue('9')">9</button>
+        <button class="bot" id="n+" onclick="appendValue('+')">+</button>
+        <button class="bot" id="n4" onclick="appendValue('4')">4</button>
+        <button class="bot" id="n5" onclick="appendValue('5')">5</button>
+        <button class="bot" id="n6" onclick="appendValue('6')">6</button>
+        <button class="bot" id="n-" onclick="appendValue('-')">-</button>
+        <button class="bot" id="n1" onclick="appendValue('1')">1</button>
+        <button class="bot" id="n2" onclick="appendValue('2')">2</button>
+        <button class="bot" id="n3" onclick="appendValue('3')">3</button>
+        <button class="bot" id="n/" onclick="appendValue('/')">/</button>
+        <button class="bot" id="n0" onclick="appendValue('0')">0</button>
+        <button class="bot" id="nn" onclick="calculate()">=</button>
+        <button class="bot" id="n*" onclick="appendValue('*')">*</button>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
