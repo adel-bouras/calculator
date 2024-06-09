@@ -1,3 +1,18 @@
-#this is basic simple calculator
-  ![Screenshot](https://github.com/adel-bouras/calculator/blob/main/shoot.png)
+# My Calculator Project
 
+This is a calculator project.
+
+## Screenshot
+
+![Screenshot](https://github.com/adel-bouras/calculator/raw/main/shoot.png)
+
+## Features
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+## Installation
+
+To install, clone the repository and open the `index.html` file in your browser.
